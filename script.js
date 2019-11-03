@@ -18,7 +18,6 @@ if (uppercaseChoice) {
     oneOfEachCharacters.push(uppercase.charAt(Math.floor(Math.random() * (uppercase.length))));
     console.log(selectedCharacters);
     console.log(oneOfEachCharacters);
-
 }
 
 if (lowercaseChoice) {
@@ -63,16 +62,17 @@ function generate() {
         for (i <= 1; i < lengthChoice; i++) {
             finalPassword.push(selectedCharacters[Math.floor(Math.random() * (selectedCharacters.length))])
         }
-        document.getElementById("passwordBox").value = answer;
-
+        document.getElementById("passwordBox").innerHTML = answer;
 }
 
 // Copy to clipboard function
 
-function copyPassword() {
-    document.getElementById("passwordBox").select();
-
+function clipboard() {
+    var copyText = document.getElementById("passwordBox");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
     document.execCommand("Copy");
-
-    alert("Copied the text");
-}}}
+    alert("Copied the Text" + finalPassword);
+  }   
+  
+}}
