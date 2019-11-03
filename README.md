@@ -60,17 +60,17 @@ Below are examples of code from each file created for the application:
 
 * HTML 
 
-  * <img src="images\screenshot2HW3.png" width=600>
+  <img src="images\screenshot2HW3.png" width=600>
 
 * CSS
 
-  * <img src="images\screenshot3HW3.png" width=600>
+  <img src="images\screenshot3HW3.png" width=600>
 
 *JavaScript
 
-  * <img src="images\screenshot4HW3.png" width=600>
+  <img src="images\screenshot4HW3.png" width=600>
 
-  * <img src="images\screenshot5HW3.png" width=600>
+  <img src="images\Screenshot5HW3.png" width=600>
 
 ## Credits
 
