@@ -52,7 +52,7 @@ The following code styles were used in the application:
 
 Below is a picture of the final application launched on a browser:
 
-<img src="images\screenshotHW3.png" width=300>
+<img src="images\screenshotHW3.png" width=600>
 
 ## Code Examples
 
@@ -66,7 +66,7 @@ Below are examples of code from each file created for the application:
 
   <img src="images\screenshot3HW3.png" width=600>
 
-*JavaScript
+* JavaScript
 
   <img src="images\screenshot4HW3.png" width=600>
 
